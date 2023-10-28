@@ -1,0 +1,1 @@
+/home/francis/wordle-yzr21/tips/target/release/tips: /home/francis/wordle-yzr21/tips/src/builtin_words.rs /home/francis/wordle-yzr21/tips/src/common.rs /home/francis/wordle-yzr21/tips/src/main.rs /home/francis/wordle-yzr21/tips/src/tty_true.rs

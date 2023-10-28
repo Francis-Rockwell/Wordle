@@ -1,0 +1,23 @@
+[package]
+name = "wordle"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crossterm = { version = "0.22", features = [ "serde" ] }
+tui = { version = "0.17", default-features = false, features = ['crossterm', 'serde'] }
+atty = "0.2"
+serde_json = "1.0"
+serde = "1.0.117"
+serde_derive = "1.0.117"
+console = "0.15"
+clap = "~2.27.0"
+rand = "0.8.5"
+
+[dev-dependencies]
+lazy_static = "1.0"
+assert-json-diff = "2.0"
+ntest = "0.8"
+pretty_assertions = "1.2.1"
